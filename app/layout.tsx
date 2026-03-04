@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     title: "Mohit Singh — Web Developer",
     description:
       "Conversion-focused websites for dentists, travel agencies and local businesses.",
-    url: "https://yourdomain.com",
+    url: "https://mohitdev-site.vercel.app/",
     siteName: "Mohit.dev",
     images: [
       {
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     images: ["/og-image.png"]
   },
 
-  metadataBase: new URL("https://yourdomain.com")
+  metadataBase: new URL("https://mohitdev-site.vercel.app/")
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -60,7 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     "@context": "https://schema.org",
     "@type": "ProfessionalService",
     "name": "Mohit Singh Web Development",
-    "url": "https://yourdomain.com",
+    "url": "https://mohitdev-site.vercel.app/",
     "description": "Freelance web developer building conversion-focused websites for dentists, travel agencies, law firms and local businesses.",
     "areaServed": "India",
     "founder": {

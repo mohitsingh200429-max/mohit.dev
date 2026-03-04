@@ -103,9 +103,11 @@ export default function Hero() {
 
             <Image
               src="/images/hero.png"
-              alt="Website Preview"
+              alt="Website preview of a travel agency landing page built by Mohit Singh"
               fill
               priority
+              fetchPriority="high"
+              sizes="(max-width: 768px) 100vw, 1000px"
               className="object-cover"
             />
 
